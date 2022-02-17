@@ -54,6 +54,7 @@ ul {
 
 .heder-conteiner {
   display: flex;
+  align-items: center;
 }
 
 /* Хедер*/
@@ -70,7 +71,7 @@ ul {
   font-size: 26px;
   line-height: 1.19;
   letter-spacing: 0.03em;
-  margin: 24px 93px 25px 15px;
+  margin: 24px 93px 25px 0;
   color: var(--accent-color);
 }
 
@@ -86,13 +87,23 @@ ul {
 
 .nav {
   display: flex;
+  align-items: center;
 }
 
 .site-nav {
   font-weight: 500;
   font-size: 14px;
   line-height: 1.14;
+  letter-spacing: 0.02em;
   display: flex;
+}
+
+.link {
+  margin-right: 50px;
+}
+
+.link-portfolio {
+  margin-right: 37px;
 }
 
 .nav-link {
@@ -101,7 +112,6 @@ ul {
 
 .site-nav .current {
   color: var(--accent-color);
-  /* margin-right: 50px; */
 }
 
 .nav-link:hover,
@@ -116,6 +126,7 @@ ul {
   font-size: 14px;
   line-height: 1.14;
   display: flex;
+  margin-left: auto;
 }
 
 .contacts-link {
@@ -127,6 +138,10 @@ ul {
   color: var(--accent-color);
 }
 
+.contacts-list:first-child {
+  margin-right: 50px;
+}
+
 /* Секция герой */
 
 .hero {
@@ -134,10 +149,10 @@ ul {
 }
 
 .hero-title {
+  width: 696px;
   font-weight: 900;
   font-size: 44px;
   line-height: 1.36;
-  text-align: center;
   letter-spacing: 0.06em;
   text-transform: uppercase;
   color: var(--primary-white-color);
@@ -149,6 +164,7 @@ ul {
   font-weight: 700;
   font-size: 16px;
   line-height: 1.87;
+  letter-spacing: 0.06em;
   cursor: pointer;
   background-color: var(--accent-color);
   color: var(--primary-white-color);
