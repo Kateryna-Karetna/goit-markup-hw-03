@@ -19,8 +19,22 @@ body {
   color: var(--primary-text-color);
 }
 
-/* Точки списка, линки */
+/* Спецификация */
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+ul {
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
 .list {
+  padding-left: 0;
   list-style: none;
 }
 
@@ -28,18 +42,35 @@ body {
   text-decoration: none;
 }
 
+/* Контейнер */
+
+.conteiner {
+  width: 1200px;
+  padding-left: 15px;
+  padding-right: 15px;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.heder-conteiner {
+  display: flex;
+}
+
 /* Хедер*/
+
 .header {
   background-color: var(--primary-white-color);
 }
 
 /* Логотип */
+
 .logo {
   font-family: var(--secondary-font);
   font-weight: 700;
   font-size: 26px;
   line-height: 1.19;
   letter-spacing: 0.03em;
+  margin: 24px 93px 25px 15px;
   color: var(--accent-color);
 }
 
@@ -53,10 +84,15 @@ body {
 
 /* Навигация */
 
+.nav {
+  display: flex;
+}
+
 .site-nav {
   font-weight: 500;
   font-size: 14px;
   line-height: 1.14;
+  display: flex;
 }
 
 .nav-link {
@@ -65,6 +101,7 @@ body {
 
 .site-nav .current {
   color: var(--accent-color);
+  /* margin-right: 50px; */
 }
 
 .nav-link:hover,
@@ -78,6 +115,7 @@ body {
   font-weight: 500;
   font-size: 14px;
   line-height: 1.14;
+  display: flex;
 }
 
 .contacts-link {
