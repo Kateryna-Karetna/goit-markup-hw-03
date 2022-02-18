@@ -67,6 +67,10 @@ img {
 /* Хедер*/
 
 .header {
+  border-bottom-width: 1px;
+  border-bottom-style: solid;
+  border-bottom-color: #ececec;
+
   background-color: var(--primary-white-color);
 }
 
@@ -209,9 +213,11 @@ img {
 
 /* Секция преимущества */
 
-.benefits {
-  margin-top: var(--secondary-item-size);
+.section {
+  padding-top: var(--secondary-item-size);
+}
 
+.benefits {
   background-color: var(--primary-white-color);
 }
 
@@ -245,10 +251,6 @@ img {
 }
 
 /* Секция род деятельности */
-
-.occupation {
-  margin-top: var(--secondary-item-size);
-}
 
 .title {
   font-weight: 700;
@@ -406,6 +408,9 @@ img {
 .portfolio-item {
   margin-bottom: var(--primary-item-size);
   margin-left: var(--primary-item-size);
+  border-bottom-width: 1px;
+  border-bottom-style: solid;
+  border-bottom-color: #ececec;
 }
 
 .portfolio-title {
