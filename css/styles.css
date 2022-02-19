@@ -35,6 +35,11 @@ ul {
   margin-bottom: 0;
 }
 
+.visually-hidden {
+  position: fixed;
+  transform: scale(0);
+}
+
 .list {
   padding-left: 0;
   list-style: none;
